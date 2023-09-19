@@ -2,6 +2,10 @@ let gallary = document.querySelector('.gallary--container');
 let burger = document.querySelector('.burger');
 let nav = document.querySelector('.navigation');
 
+let body_scroll = document.querySelector('#body');
+let navigation_scroll = document.querySelector('#navigation');
+let con_line = document.querySelector('#con--line');
+
 
 
 
@@ -45,12 +49,10 @@ function imaging(){
         )
     }).join('');
 }
-
-
 imaging();
 
 
-
+/*
 burger.addEventListener('click', ()=>{
     if(nav.classList.contains('navigation')){
         nav.classList.remove('navigation');
@@ -58,4 +60,17 @@ burger.addEventListener('click', ()=>{
     else{
         nav.classList.add('navigation');
     }
+})
+
+*/
+/*
+let a = document.querySelector('#myDIV');
+a.addEventListener('scroll', ()=>{
+    let b = document.querySelector('#id');
+    b.innerHTML = 'scrolled';
+});
+*/
+body_scroll.addEventListener('scroll', ()=>{
+    navigation_scroll.style.display ='none';
+  // con_line.innerHTML = 'con_line';
 })

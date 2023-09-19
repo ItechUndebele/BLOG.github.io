@@ -5,6 +5,7 @@
    overflow-y: scroll;
 }
 .container{
+    min-height: 100vh;
     display: flex;
     justify-content: center;
 }
@@ -49,6 +50,11 @@
     border-style: solid;
     border-width: 1px;
     border-color: rgb(223, 229, 233) ;
+    cursor: pointer;
+}
+.burger:hover{
+   border-style: solid;
+    width: 2rem;
 }
 .navigation{
     display: none;
@@ -57,6 +63,9 @@
    float: right;
     position: relative;
     bottom: 1.7rem;
+    right: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+
 }
 .gallary--container img{
    width: 10rem;

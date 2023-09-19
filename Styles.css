@@ -1,0 +1,102 @@
+.box{
+   background-color: rgb(176, 194, 194);
+   width: 350px;
+   height: 650px;
+   overflow-y: scroll;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+
+#navigation ul{
+   list-style: none;
+}
+#navigation a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 10px;
+}
+#navigation ul{
+   position: relative;
+   right: 2rem;
+   line-height: 2rem;
+}
+#navigation{
+    z-index: 1000;
+    position: relative;
+    bottom: 1.1rem;
+    position: fixed;
+}
+#navigation ul{
+    background-color: rgb(198, 205, 211);
+    width: 18.7rem;
+    height: 12rem;
+    margin-left: 2rem;
+    position: relative;
+    bottom: 25rem;
+}
+
+#navigation .logo{
+  float: right;
+}
+
+.burger{
+    background-color: rgb(220, 223, 226);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(223, 229, 233) ;
+  
+  
+}
+.navigation{
+    display: none;
+}
+.logo{
+   float: right;
+    position: relative;
+    bottom: 1.7rem;
+}
+.gallary--container img{
+   width: 10rem;
+   height: 6rem
+}
+.gallary--container{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 2rem;
+    justify-content: center;
+ }
+ .container--0{  
+      display: flex;
+      justify-content: center;
+ }
+ .container--0  img{
+   width: 20.5rem;
+   margin: 1rem;
+ }
+ .containerOne{  
+    display: flex;
+    justify-content: center;
+}
+.containerOne  img{
+ position: relative;
+ top: 1rem;
+ width: 20rem;
+ margin-left: 2.8rem;
+}
+
+ footer{
+    font-size: 0.7rem;
+    background-color: black;
+    color: antiquewhite;
+    line-height: 50px;
+    text-align: center;
+ }
+ 

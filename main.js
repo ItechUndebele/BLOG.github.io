@@ -40,7 +40,7 @@ let data=[
 function imaging(){
    gallary.innerHTML= data.map(x => {
     let{img} = x;
-        return(
+        return(      
             `
             <div class="gallary--container">
              <img src=${img}>

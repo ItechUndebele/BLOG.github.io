@@ -71,8 +71,8 @@
 .gallary--space{
     display: flex;
     flex-wrap: wrap;
-    row-gap: 0.5rem;
-    column-gap: 0.5rem;
+    row-gap: 1rem;
+    column-gap: 1rem;
     justify-content: center;
     margin-top: 2rem;
 }

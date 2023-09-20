@@ -1,4 +1,4 @@
-let gallary = document.querySelector('.gallary--container');
+let gallary = document.querySelector('.gallary--space');
 let burger = document.querySelector('.burger');
 let nav = document.querySelector('.navigation');
 

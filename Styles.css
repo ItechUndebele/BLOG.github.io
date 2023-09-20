@@ -71,14 +71,12 @@
    width: 90%;   
    height: 100%
 }
-.gallary--container{
-    display: flex;
-    flex-wrap: wrap;
+.gallary--space{
+    display: grid;
     justify-content: center;
-    column-gap: 10px;
-    row-gap: 10px;
-    margin-top: 2rem;
-    justify-content: center;
+    row-gap: 1rem;
+    grid-template-columns: repeat(4, 20%);
+    margin-top: 2rem
  }
  .container--0{  
       display: flex;
@@ -106,7 +104,7 @@
     line-height: 50px;
     text-align: center;
  }
-
+/*
  @media only screen and (min-width: 350px){
     .box{
         width: 700px;
@@ -116,8 +114,12 @@
         width: 18rem;
         height: 10rem
      }
+     .gallary--container{
+        display: grid;
+        grid-template-columns: repeat(2, 45%);
+     }
  }
- 
+
  @media only screen and (min-width: 700px){
     .box{
         width: 1920px;
@@ -128,6 +130,10 @@
         width: 40rem;
         height: 30rem
 
+     }
+    .gallary--container{
+        display: grid;
+        grid-template-columns: repeat(2, 40%);
      }
  }
  

@@ -1,5 +1,5 @@
 .box{
-   background-color: rgb(176, 194, 194);
+  /* background-color: rgb(176, 194, 194);*/
    width: 350px;
    height: 650px;
    overflow-y: scroll;
@@ -68,12 +68,13 @@
 
 }
 .gallary--container img{
-   width: 10rem;
-   height: 6rem
+   width: 90%;   
+   height: 100%
 }
 .gallary--container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     column-gap: 10px;
     row-gap: 10px;
     margin-top: 2rem;
@@ -84,7 +85,7 @@
       justify-content: center;
  }
  .container--0  img{
-   width: 20.5rem;
+   width: 90%;
    margin: 1rem;
  }
  .containerOne{  
@@ -94,8 +95,8 @@
 .containerOne  img{
  position: relative;
  top: 1rem;
- width: 20rem;
- margin-left: 2.8rem;
+ width: 100%;
+ margin-left: 3rem;
 }
 
  footer{
@@ -105,4 +106,29 @@
     line-height: 50px;
     text-align: center;
  }
+
+ @media only screen and (min-width: 350px){
+    .box{
+        width: 700px;
+        height: 1300px;
+     }
+    .gallary--container img{
+        width: 18rem;
+        height: 10rem
+     }
+ }
  
+ @media only screen and (min-width: 700px){
+    .box{
+        width: 1920px;
+        height: 1080px;
+     
+     }
+    .gallary--container img{
+        width: 40rem;
+        height: 30rem
+
+     }
+ }
+ 
+

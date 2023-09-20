@@ -1,4 +1,4 @@
-let gallary = document.querySelector('.gallary--container');
+let gallary = document.querySelector('.gallary--space');
 let burger = document.querySelector('.burger');
 let nav = document.querySelector('.navigation');
 
@@ -40,7 +40,7 @@ let data=[
 function imaging(){
    gallary.innerHTML= data.map(x => {
     let{img} = x;
-        return(
+        return(      
             `
             <div class="gallary--container">
              <img src=${img}>
